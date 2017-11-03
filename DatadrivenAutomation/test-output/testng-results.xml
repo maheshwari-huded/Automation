@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54772" started-at="2017-09-19T12:53:25Z" finished-at="2017-09-19T12:54:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54772" started-at="2017-09-19T12:53:25Z" finished-at="2017-09-19T12:54:20Z">
+      <class name="org.automation.testcase.TC_001validateLoginFunctionality">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:org.automation.testcase.TC_001validateLoginFunctionality@3fee9989]" name="initiateDriverInstance" is-config="true" duration-ms="19089" started-at="2017-09-19T18:23:27Z" finished-at="2017-09-19T18:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="tc_001testcase(java.lang.String, java.lang.String)[pri:0, instance:org.automation.testcase.TC_001validateLoginFunctionality@3fee9989]" name="tc_001testcase" duration-ms="32394" started-at="2017-09-19T18:23:46Z" data-provider="Excel" finished-at="2017-09-19T18:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[huded.kusuma@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puli4mayu@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001testcase -->
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:org.automation.testcase.TC_001validateLoginFunctionality@3fee9989]" name="closeDriverInstance" is-config="true" duration-ms="1207" started-at="2017-09-19T18:24:18Z" finished-at="2017-09-19T18:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- org.automation.testcase.TC_001validateLoginFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
